@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Active.Net.Logging.dll</id>
+        <version>0.2</version>
+        <authors>Andreas Bernauer,Helmut Dobretzberger,Michael Sperber</authors>
+        <owners>Active Group</owners>
+        <licenseUrl>https://www.eclipse.org/legal/epl-v10.html</licenseUrl>
+        <projectUrl>https://github.com/active-group/Active.Net.Logging</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Tiny Logging library that we use in many projects; helper functions for NLog</description>
+        <releaseNotes>With debug symbols</releaseNotes>
+        <copyright>Copyright 2015 Active Group GmbH</copyright>
+        <tags>Logging NLog FSharp .NET</tags>
+        <dependencies>
+            <dependency id="NLog" version="4.2.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\obj\Debug\Active.Net.Logging.dll" target="lib/net45\Active.Net.Logging.dll" />
+        <file src="..\obj\Debug\Active.Net.Logging.pdb" target="lib/net45\Active.Net.Logging.pdb" />
+    </files>
+</package>
