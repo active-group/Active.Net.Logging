@@ -18,6 +18,6 @@
     </dependencies>
   </metadata>
   <files>
-  	<file src="../bin/Debug/Active.Net.Logging.dll" target="lib/net45"/>
+  	<file src="e:\Active.Net.Logging\bin\Debug\Active.Net.Logging.dll" target="lib/net45"/>
   </files>
 </package>
